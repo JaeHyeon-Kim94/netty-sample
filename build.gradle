@@ -18,6 +18,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'io.netty:netty-all:4.1.108.Final'
+	implementation 'org.apache.commons:commons-lang3'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
